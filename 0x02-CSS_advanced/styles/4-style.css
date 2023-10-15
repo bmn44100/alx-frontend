@@ -1,3 +1,6 @@
+font-family: 'font-family-base', Helvetica Neue, Helvetica, Arial, sans-serif;
+font-family: 'font-family-title', Helvetica Neue, Helvetica, Arial, sans-serif;
+
 root {
   color-primary: #d73953;
   color-black: #090909;
@@ -5,7 +8,6 @@ root {
   color-light-grey: #f3f3f3;
   color-dark-grey: #353535;
   text-color: color-black;
-  font-family: 'font-family-base', 'font-family-title', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 html {
