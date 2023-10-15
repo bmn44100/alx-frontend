@@ -7,12 +7,8 @@ root {
   text-color: color-black;
 }
 
-.section-tagline {
-  color: color-primary;
-}
-
-.card-category {
-  color: color-primary;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,4 +17,16 @@ body {
 
 a {
   color: text-color;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.section-tagline {
+  color: color-primary;
+}
+
+.card-category {
+  color: color-primary;
 }
