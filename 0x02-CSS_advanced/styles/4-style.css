@@ -16,16 +16,16 @@ html {
 }
 
 body {
-  color: text-color;
-  font-family: font-family-base;
+  color: var(--text-color);
+  font-family: var(--font-family-base);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: font-family-title;
+  font-family: var(--font-family-title);
 }
 
 a {
-  color: text-color;
+  color: var(--text-color);
 }
 
 .visually-hidden {
@@ -33,9 +33,9 @@ a {
 }
 
 .section-tagline {
-  color: color-primary;
+  color: var(--color-primary);
 }
 
 .card-category {
-  color: color-primary;
+  color: var(--color-primary);
 }
