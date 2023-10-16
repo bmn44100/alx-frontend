@@ -161,7 +161,12 @@ a:active {
 .nav .nav-link {
   display: block;
   padding: 0.5rem 0;
+  position: relative;
+}
+  
+.nav .nav-link:hover {
   color: var(--nav-item-link-hover);
+  text-decoration: none;
 }
 
 .card-category {
